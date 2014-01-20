@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="org-lahc-totem-SimilarityGraphAction.instance">
+                <!--org.lahc.totem.SimilarityGraphAction-->
+                <attr
+                    bundlevalue="org.lahc.totem.Bundle#CTL_SimilarityGraphAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.lahc.totem.SimilarityGraphAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-lahc-totem-TotemAction.instance">
+                <!--org.lahc.totem.TotemAction-->
+                <attr
+                    bundlevalue="org.lahc.totem.Bundle#CTL_TotemAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.lahc.totem.TotemAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Plugins">
+            <file name="org-lahc-totem-SimilarityGraphAction.shadow">
+                <!--org.lahc.totem.SimilarityGraphAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/org-lahc-totem-SimilarityGraphAction.instance"/>
+                <attr intvalue="3333" name="position"/>
+            </file>
+            <file name="org-lahc-totem-TotemAction.shadow">
+                <!--org.lahc.totem.TotemAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/org-lahc-totem-TotemAction.instance"/>
+                <attr intvalue="3333" name="position"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
